@@ -1,0 +1,79 @@
+
+    <html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Comparison</title>
+        <link rel="stylesheet" href="/static/css/style_display.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <style>
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+            }
+            td, th {
+                border: 1px solid #ddd;
+                padding: 10px;
+                text-align: left;
+            }
+            th {
+                background-color: #f4f4f4;
+            }
+            tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+            .thumbnail {
+                max-width: 100px;
+                max-height: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <div class="menu">
+                <div class="logo">
+                    <a href="/home">Prime Product</a>
+                </div>
+                <ul>
+                    <form class="input-box" action="/searching_des" method="post">
+                        <input type="text" id="input_des" name="search_des" placeholder="Search keywords here..." />
+                        <button class="button">Search</button>
+                    </form>
+                </ul>
+            </div>
+        </nav>
+        
+<div class="container">
+    <div class="select-btn">
+        <span class="btn-text">Select Websites</span>
+        <span class="arrow-dwn">
+            <i class="fa-solid fa-chevron-down"></i>
+        </span>
+    </div>
+    <ul class="list-items">
+        <li class="item">
+            <label><input class="check" type="checkbox" value="Amazon"> Amazon</label>
+        </li>
+        <li class="item">
+            <label><input class="check" type="checkbox" value="Flipkart"> Flipkart</label>
+        </li>
+        <li class="item">
+            <label><input class="check" type="checkbox" value="Snapdeal"> Snapdeal</label>
+        </li>
+        <li class="item">
+            <label><input class="check" type="checkbox" value="Paytm"> Paytm Mall</label>
+        </li>
+        <li class="item">
+            <label><input class="check" type="checkbox" value="Shopclues"> Shopclues</label>
+        </li>
+        <li class="item">
+            <label><input class="check" type="checkbox" value="Nykaa"> Nykaa</label>
+        </li>
+    </ul>
+</div>
+<table><tr><th>Image</th><th>Name</th><th>Company</th><th>Price</th><th>Rating</th><th>Link</th></tr></table><script src="/static/js/script.js"></script>
+    </body>
+    </html>
+    
