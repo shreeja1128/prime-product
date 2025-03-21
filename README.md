@@ -127,9 +127,23 @@ Display Data & Store in CSV
 
 ## 🖼️ Screenshots
 
-| Home Page | Filtered Results |
-|-----------|------------------|
-| ![Home](screenshots/home.png) | ![Filtered](screenshots/filtered.png) |
+<img width="759" alt="image" src="https://github.com/user-attachments/assets/1098194c-7849-4858-a264-675f98ea8aad" />
+Home Page
+<img width="848" alt="image" src="https://github.com/user-attachments/assets/1b5481f6-accd-46cc-a8bc-164ce05fc556" />
+Scraped results from different websites
+<img width="1027" alt="image" src="https://github.com/user-attachments/assets/d6a7a8f0-1291-46e8-876f-2b79e9f67470" />
+Using filter to only see products only from flipkart
+<img width="993" alt="image" src="https://github.com/user-attachments/assets/ea398495-3c8b-43ec-84ef-e553aa77b481" />
+Using keywords to search for products
+<img width="1014" alt="image" src="https://github.com/user-attachments/assets/63b54ce8-8c43-4cd0-9b3d-7c16ccc38eb2" />
+idf values
+
+
+
+
+
+
+
 
 
 
